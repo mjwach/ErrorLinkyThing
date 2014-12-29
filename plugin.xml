@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.console.consolePatternMatchListeners">
+      <consolePatternMatchListener
+            class="errorlinkything.ErrorLinkyPatternMatchListenerDelegate"
+            id="ErrorLinkyThing.errorLinkyConsolePatternMatchListener"
+            regex="[A-Za-z]:(\/[^&lt;&gt;:&quot;\/\\\|\?\*]+)+:\d+">
+         <enablement></enablement>
+      </consolePatternMatchListener>
+   </extension>
+
+</plugin>
